@@ -1,0 +1,8 @@
+F1 = 1
+F2 = 1
+counter = 2
+while len(str(F2))<1000:
+    F1, F2 = F2, F1+F2
+    counter += 1
+ 
+print counter
